@@ -1,0 +1,5 @@
+azure-functions
+azure-identity
+azure-purview-scanning
+azure-purview-administration
+azure-core

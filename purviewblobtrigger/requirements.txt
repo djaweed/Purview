@@ -1,0 +1,6 @@
+azure-functions
+azure-identity
+requests
+azure-storage-blob
+azure-core
+azure-servicebus
