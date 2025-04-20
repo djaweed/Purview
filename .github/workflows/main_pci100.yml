@@ -65,9 +65,9 @@ jobs:
       - name: Login to Azure
         uses: azure/login@v2
         with:
-          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_1261B04AC27845519F842E810DAEE4BE }}
-          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_660260B375CD4B38BD920F94D48C0694 }}
-          subscription-id: ${{ secrets.AZUREAPPSERVICE_SUBSCRIPTIONID_586CABFD21744AA3833311E1E07CF242 }}
+          client-id: ${{ secrets.AZUREAPPSERVICE_CLIENTID_XXXXXXXXX }} #Will be provided when you connect Azure to Github
+          tenant-id: ${{ secrets.AZUREAPPSERVICE_TENANTID_XXXXXXXXX }} #Will be provided when you connect Azure to Github
+          subscription-id: ${{ secrets.AZUREAPPSERVICE_XXXXXXXXX }} #Will be provided when you connect Azure to Github
       
       - name: 'Deploy to Azure Functions'
         uses: Azure/functions-action@v1
