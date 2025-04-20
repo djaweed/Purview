@@ -74,6 +74,6 @@ jobs:
          app-name: 'triggerpurviewscan'
          slot-name: 'Production'
          package: .
-         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_9A61D736281D40739C16754B1207AA7E }}
+         publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_XXXXXXXXX }} #Will be provided when you connect Azure to Github
          scm-do-build-during-deployment: true
          enable-oryx-build: true
